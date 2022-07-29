@@ -1,0 +1,45 @@
+body{
+    background-color:white;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items: center;
+    height:100%;
+}
+
+svg{
+    background-color:lemonchiffon;
+    box-shadow:0px 3px 15px rgba(0,0,00,0.2);
+    border-radius:5px;
+    padding:10px;
+
+}
+
+html{
+    height:100%
+}
+
+.bar{
+    background-color: blueviolet;
+    border-color: blueviolet;
+    fill: blueviolet;
+}
+
+.bar:hover{
+    fill:black;
+}
+
+g{
+    color:black;
+}
+
+#tooltip{
+    margin-top:10px;
+    color:black;
+    font-size: 20px;
+}
+
+#title{
+    font-size:30px;
+    fill:black
+}
